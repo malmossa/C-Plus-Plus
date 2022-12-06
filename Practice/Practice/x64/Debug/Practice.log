@@ -1,3 +1,0 @@
-﻿  Practice.cpp
-C:\Users\malmo\C-Plus-Plus\Practice\Practice\Practice.cpp(6,33): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Practice.vcxproj -> C:\Users\malmo\C-Plus-Plus\Practice\x64\Debug\Practice.exe
