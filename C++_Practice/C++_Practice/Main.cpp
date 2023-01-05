@@ -1,51 +1,26 @@
-#include <iostream>;
+#include <iostream>
 using namespace std;
 
-
 /*
-   Arithmetic Operators:
-   ---------------------
-   + addition operator.
-   - subtraction operator.
-   * multiplication operator.
-   / division operator.
-   % modulus operator.
+	> grater then
+	>= greater than or wqual to
+	< less than
+	<= less than or wqual to
+	== equal-to (equality)
+	!= not-equal-to (equality)
 */
 
 int main() {
-	
-	int a = 10;
-	int b = 3;
-	
-	int sum = a + b;
-	int difference = a - b;
-	int product = a * b;
-	int quotient = a / b;
-	int remainder = a % b;
+	cout << boolalpha;
 
-	// Compound addition, subtraction
-	int num1 = 10;
-	int num2 = 10;
-	num1 += 5; // num1 = num1 + 5
-	num2 -= 5; // num2 = num2 - 5
+	int age = 37;
+	int a = 15;
+	int b = 20;
+	bool areEqual = a == b;
 
-	// increment, decrement by 1
-	int num3 = 0;
-	int num4 = 0;
-	num3++;
-	num4--;
-
-
-
-	cout << "Sum = " << sum << endl;
-	cout << "Difference = " << difference << endl;
-	cout << "Product = " << product << endl;
-	cout << "Quotient = " << quotient << endl;
-	cout << "Remainder = " << remainder << endl;
-	cout << "Num 1 = " << num1 << endl;
-	cout << "Num 2 = " << num2 << endl;
-	cout << "Num 3 = " << num3 << endl;
-	cout << "Num 4 = " << num4 << endl;
+	cout << (a < b) << endl;
+	cout << areEqual << endl;
+	cout << "age >= 21? " << (age >= 21) << endl;
 
 	system("pause>0");
 }
