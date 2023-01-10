@@ -1,26 +1,17 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
-/*
-	> grater then
-	>= greater than or wqual to
-	< less than
-	<= less than or wqual to
-	== equal-to (equality)
-	!= not-equal-to (equality)
-*/
-
 int main() {
+
+	bool isReaining = true;
+	bool isWarm = true;
+
 	cout << boolalpha;
 
-	int age = 37;
-	int a = 15;
-	int b = 20;
-	bool areEqual = a == b;
-
-	cout << (a < b) << endl;
-	cout << areEqual << endl;
-	cout << "age >= 21? " << (age >= 21) << endl;
+	cout << "And: " << (isReaining && isWarm) << endl;
+	cout << "Or: " << (isReaining || isWarm) << endl;
+	cout << "Not: " << (!isReaining) << endl;
 
 	system("pause>0");
 }
